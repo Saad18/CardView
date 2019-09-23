@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4sp"
+    android:padding="8sp"
+    app:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/cNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:gravity="center"
+            android:padding="16sp"
+            android:text="@string/employee_name"
+            android:textSize="25sp" />
+    </androidx.cardview.widget.CardView>
